@@ -1,0 +1,184 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url(istockphoto-1198726201-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-first{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #000;
+    -webkit-text-stroke: 1px goldenrod;
+}
+h1 span{
+    position: relative;
+}
+.container-btns{
+    position: relative;
+    top: 50px;
+}
+.btn-first{
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    color: #000;
+    cursor: pointer;
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+.btn-first:hover{
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0.2em;
+    box-shadow: 0 0 15px goldenrod;
+    background: #000;
+    color: #fff;
+}
+.lignes{
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    background: transparent;
+}
+.l1{
+    width: 250px;
+    height: 4px;
+    background: #000;
+    border-radius: 10px;
+}
+.l2{
+    width: 250px;
+    height: 3px;
+    background: #000;
+    border-radius: 10px;
+    position: relative;
+}
+h2{
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #000;
+    border: 1px solid goldenrod;
+    right: 93%;
+    top: -38%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.medias{
+    position: relative;
+    right: -85%;
+    top: 60%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.logo-medias{
+    width: 30px;
+    height: 30px;
+}
+.bulle:hover{
+    border: 1px solid #000;
+    background: goldenrod; 
+    box-shadow: 0 0 15px #000;
+}
+section{
+    margin-top: 0px;
+    background-color: #fff;
+    border-top: 5px solid #000;
+    border-bottom: 3px solid #000;
+    color: white;
+    height: 150vh;
+}
+.ctt span h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 45px;
+    padding: 80px;
+    text-align: center;
+}
+.boîte {
+    float: none;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.col{
+    background: rgb(200, 200, 200);
+    border-radius: 20px;
+}
+
+.boîte .field{
+    height: 8vh;
+    width: 450px;
+    background-color: #fff;
+}
+.boîte .right{
+    padding: 50px;
+    height: 45vh;
+    width: 450px;
+    background-color: #fff ;
+}
+footer{
+    margin-top: 10px;
+    background-image: url(flowers-yellow-flowers-black-background-digital-art-wallpaper-thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 60vh;
+}
+footer h3{
+    font-size: 20px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+    padding: 20px 60px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+
